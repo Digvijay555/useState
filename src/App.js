@@ -1,10 +1,14 @@
 import React,{useState} from "react";
 import "./style.css";
 
-// state is hook 
+// useState is hook which is used to manage state of react
+// hook are predefined function of react
 export default function App() {
 
-  let [test, setState] = useState(0);
+  let [test, setState] = useState(0); 
+  // test is state variable 
+  //setState is a function which manage my value of state variable
+  // useState(' ') default value of your state variable
 
   function increment()
   {
